@@ -11,9 +11,10 @@ def reformat_languages(languages)
       # binding.pry
       value.map do |element|
         new_hash[key][:style] << element
+        binding.pry
       end
     end
-    binding.pry
+    # binding.pry
   end
   new_hash
 end
