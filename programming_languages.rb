@@ -11,7 +11,7 @@ def reformat_languages(languages)
       # binding.pry
       value.map do |type, element|
         new_hash[key][:style] << element
-        binding.pry
+        # binding.pry
       end
     end
     # binding.pry
