@@ -8,8 +8,10 @@ def reformat_languages(languages)
     language.map do |key, value|
       new_hash.merge!({key =>{:type => "", :style => []}})
       new_hash[key][:type] = value[:type]
-      new_hash[key][:style] << style
-      binding.pry
+      # binding.pry
+    end
+    style.map do |element|
+       new_hash[key][:style] << element
     end
     # binding.pry
   end
