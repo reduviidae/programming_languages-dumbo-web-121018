@@ -10,8 +10,8 @@ def reformat_languages(languages)
       new_hash[key][:type] = value[:type]
       # binding.pry
     end
-       new_hash[key][:style] << element
-    # binding.pry
+    # new_hash[key][:style] << element
+    binding.pry
   end
   new_hash
 end
